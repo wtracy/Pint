@@ -1,0 +1,5 @@
+The goal of this project is to produce a TCl compiler, itself written in TCl, that emits executable machine code. (I'm still deciding whether to target x86 or ARM.) I aim to ultimately make this compiler able to compile itself.
+
+I only intend to support a subset of TCl (commands like exec are obviously problematic to implement) but I hope to build a compiler that will be able to compile "most" TCl code bases already in the wild.
+
+
